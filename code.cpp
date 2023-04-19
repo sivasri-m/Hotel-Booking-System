@@ -9,13 +9,13 @@ struct node
     node *next;
     node *prev;
 };
-class hostel
+class hotel
 {
     node *header[3];
     node *cn;
 
 public:
-    hostel()
+    hotel()
     {
         for (int i = 0; i < 3; i++)
             header[i] = NULL;
@@ -340,7 +340,7 @@ public:
 int main()
 {
 
-    hostel obj;
+    hotel obj;
     int key;
     char ch;
     int floorcheck;
